@@ -1,7 +1,7 @@
 # Classification of Social Media Posts 
 Classification of social media posts using SVM and XGB classifiers. API endpoint exposed using FastAPI.
 
-# API Documentation
+## API Documentation
 
 - Endpoint: /api/theme
 - Method: POST
