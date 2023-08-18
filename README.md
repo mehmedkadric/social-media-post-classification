@@ -1,4 +1,5 @@
-# text-classification
+# Classification of Social Media Posts 
+Classification of social media posts using SVM and XGB classifiers. Dockerized and API endpoint exposed using FastAPI.
 
 Example (test_script.py):
 
