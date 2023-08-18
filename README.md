@@ -1,8 +1,23 @@
 # Classification of Social Media Posts 
 Classification of social media posts using SVM and XGB classifiers. API endpoint exposed using FastAPI.
 
-Example (test_script.py):
+# API Documentation
 
+- Endpoint: /api/theme
+- Method: POST
+- Description: Get theme probabilities for input text.
+- Parameters (Body-json):
+  -- text: (required) The social media post text for which you want to predict the probabilities.
+- Response example:
+```
+{
+  "personal": 0.123,
+  "medical": 0.456,
+  "lifestyle": 0.789
+}
+```
+
+## test_script.py
 ```
 import requests
 
@@ -24,3 +39,4 @@ if response.status_code == 200:
     print(output_probs)
 else:
 ```
+
